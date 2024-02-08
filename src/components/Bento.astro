@@ -1,0 +1,97 @@
+---
+import BentoItem from "./BentoItem.astro";
+---
+
+<section
+  class="w-full max-w-[1400px] grid grid-cols-10 auto-rows-[30rem] gap-4 mx-auto p-20"
+>
+  <BentoItem
+    class="col-span-10 md:col-span-4 overflow-hidden"
+    title="ANDORRA: EL CÉNIT DE LOS PREMIOS ESLAND"
+  >
+    <div
+      slot="image"
+      class="absolute left-0
+      top-0 bottom-0 object-center w-full
+      h-full group-hover:scale-110 transition-scale
+      duration-1000 ease-in-out opacity-90 bg-blend-luminosity bg-center
+      bg-cover bg-no-repeat bg-blue-950 -z-10"
+      style="background-image: url('/mountain.webp')"
+    >
+    </div>
+    <p slot="content" class="max-w-xl">
+      Una nueva edición <strong>cargada de novedades</strong> y contenido, que empezará
+      varias semanas antes de la ansiada gala. <strong
+        >Directos especiales, colaboraciones, conciertos y mucho más</strong
+      > en lo que será una auténtica fiesta dedicada a la creación de contenido.
+    </p>
+  </BentoItem>
+  <BentoItem
+    class="col-span-10 md:col-span-6 overflow-hidden"
+    title="LA ALFOMBRA BLANCA"
+    subtitle="16 de febrero de 2024"
+  >
+    <div
+      slot="image"
+      class="absolute left-0
+        top-0 bottom-0 object-center w-full
+        h-full group-hover:scale-110 transition-scale
+        duration-1000 ease-in-out opacity-90 bg-blend-luminosity bg-center
+        bg-cover bg-no-repeat bg-blue-950 -z-10"
+      style="background-image: url('/gref.webp')"
+    >
+    </div>
+    <p slot="content" class="max-w-xl">
+      La alfombra blanca de los premios ESLAND es el evento previo a la gala
+      donde los <strong
+        >nominados y los invitados desfilan por la alfombra roja.</strong
+      > Este año, la alfombra blanca se celebrará en el <strong
+        >Palau de Gel d'Andorra.</strong
+      >
+    </p>
+  </BentoItem>
+  <BentoItem
+    class="col-span-10 md:col-span-6 overflow-hidden"
+    title="LA GALA"
+    subtitle="17 de febrero de 2024"
+  >
+    <div
+      slot="image"
+      class="absolute left-0
+        top-0 bottom-0 object-center w-full
+        h-full group-hover:scale-110 transition-scale
+        duration-1000 ease-in-out opacity-90 bg-blend-luminosity bg-center
+        bg-cover bg-no-repeat bg-blue-950 -z-10"
+      style="background-image: url('/gref.webp')"
+    >
+    </div>
+    <p slot="content" class="max-w-xl">
+      La gala de los premios ESLAND es el evento principal de la noche. En ella
+      se entregarán los premios a los <strong
+        >ganadores de las diferentes categorías.</strong
+      >
+      Este año, la gala se celebrará en el Palau de Gel d'Andorra.
+    </p>
+  </BentoItem>
+  <BentoItem
+    class="col-span-10 md:col-span-4 overflow-hidden"
+    title="DISFRUTA DEL REDDIT DE LA COMUNIDAD"
+  >
+    <div
+      slot="image"
+      class="absolute left-0
+        top-0 bottom-0 object-center w-full
+        h-full group-hover:scale-110 transition-scale
+        duration-1000 ease-in-out opacity-90 bg-blend-luminosity bg-center
+        bg-cover bg-no-repeat bg-blue-950 -z-10"
+      style="background-image: url('/laptop.webp')"
+    >
+    </div>
+    <p slot="content" class="max-w-xl">
+      Únete a la comunidad de los premios ESLAND en Reddit. Comparte tus
+      opiniones, tus favoritos y tus apuestas para los premios. <strong
+        >¡Y no te pierdas las sorpresas que tenemos preparadas!</strong
+      >
+    </p>
+  </BentoItem>
+</section>
